@@ -6,7 +6,7 @@ class MyDatabase:
             host="localhost",
             user="root",
             passwd="",
-            database="db_cine")
+            database="bd_cine")
         return connection 
 
     def insert_db(self, sala, butakas, boletos, precio):
